@@ -1,0 +1,763 @@
+
+/* Normal desktop :1300px. */
+@media (min-width: 1300px) and (max-width: 1600px){
+
+
+
+
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1299px){
+
+
+
+
+
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .Design-Studio_menu>ul>li {
+    margin-right: 15px;
+}
+
+.slider-title h1 {
+  font-size: 40px;
+}
+
+/*============about-section==================*/
+
+.about-content h2 {
+  font-size: 30px;
+}
+
+.about-two-content h2 {
+  font-size: 30px;
+}
+
+.widget-title {
+  font-size: 22px;
+}
+
+/*--------------portfolio-section-------------------*/  
+ .portfolio-title h2 {
+  font-size: 30px;
+}
+
+/*--------------team-section-------------------*/  
+
+ .team-title h2 {
+  font-size: 30px;
+}
+ 
+/*--------------testimonial-section-------------------*/      
+.testimonial-title h2 {
+  font-size: 30px;
+}
+
+/*--------------blog-section-------------------*/   
+.blog-title h2 {
+  font-size: 30px;
+}
+
+/*--------------breadcumn-section-------------------*/ 
+.breadcumb-title h1 {
+  font-size: 45px;
+}
+
+/*------------portfolio-details------------------*/
+.portfolio-details-title h2 {
+  font-size: 30px;
+}
+
+.our-portfolio-title p {
+  font-size: 12px;
+}
+
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+  .sticky {
+    position: relative !important;
+}
+
+nav.Design-Studio_menu {
+    display: none;
+} 
+/*-----------------hero-section----------------*/    
+.slider-title h1 {
+  font-size: 35px;
+}
+/*============about-section==================*/
+
+.about-content h2 {
+  font-size: 30px;
+}
+
+.about-content p {
+  font-size: 15px;
+}
+
+.about-two-content h2 {
+  font-size: 30px;
+}
+
+/*--------------portfolio-section-------------------*/  
+ .portfolio-title h2 {
+  font-size: 30px;
+}
+
+/*--------------team-section-------------------*/  
+
+ .team-title h2 {
+  font-size: 30px;
+}
+ 
+/*--------------testimonial-section-------------------*/      
+.testimonial-title h2 {
+  font-size: 30px;
+}
+
+/*--------------blog-section-------------------*/   
+.blog-title h2 {
+  font-size: 30px;
+}
+
+.widget-title {
+  font-size: 20px;
+}
+
+.breadcumb-title h1 {
+  font-size: 40px;
+}
+
+/*--------------blog-details-section-------------------*/ 
+.blog-leave-title h3 {
+  font-size: 25px;
+}
+
+.about-sub-title h3 {
+  font-size: 25px;
+}
+
+.single-widget-item h2 {
+  font-size: 25px;
+}
+
+.subscribe-title h2 {
+  font-size: 30px;
+}
+
+/*---------portfolio-details-------------*/
+.portfolio-details-title h2 {
+  font-size: 25px;
+}
+
+.our-portfolio-title h2 {
+  font-size: 25px;
+}
+
+}
+
+/* Large Mobile :600px. */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+
+  .sticky {
+    position: relative !important;
+}
+
+  nav.Design-Studio_menu {
+    display: none;
+}
+
+.slider-title h1 {
+  font-size: 30px;
+}
+   
+/*--------------service-section-------------*/    
+.service-content h2 {
+  font-size: 20px;
+}
+
+/*--------------about-section-------------*/  
+.about-content h2 {
+  font-size: 26px;
+}
+
+.about-content p {
+  font-size: 14px;
+}
+
+.about-two-content h2 {
+  font-size: 26px;
+}
+
+/*--------------portfolio-section-------------*/   
+
+.portfolio-title h2 {
+  font-size: 26px;
+}
+
+/*--------------team-section-------------*/   
+.team-title h2 {
+  font-size: 26px;
+}
+
+/*-------------testimonial-section-------------*/
+.testimonial-title h2 {
+  font-size: 26px;
+}
+
+/*--------------blog-section-------------*/    
+.blog-title h2 {
+  font-size: 26px;
+}
+
+.breadcumb-title h1 {
+  font-size: 35px;
+}
+
+/*=========footer-section=============*/
+.widget-title {
+  font-size: 20px;
+}
+
+.company-info-desc p {
+  font-size: 15px;
+}
+
+.menu-quick-link-content ul li a {
+  font-size: 15px;
+}
+
+.menu-quick-info-content ul li a {
+  font-size: 15px;
+}
+
+/*===========blog-details============*/
+.blog-description h3 a {
+  font-size: 23px;
+}
+
+.blog-leave-title h3 {
+  font-size: 23px;
+}
+
+.about-sub-title h3 {
+  font-size: 23px;
+}
+
+.about-text h4 {
+  font-size: 20px;
+}
+
+.single-widget-item h2 {
+  font-size: 23px;
+}
+
+.subscribe-title h2 {
+  font-size: 25px;
+}
+
+/*---------portfolio-details-------------*/
+.portfolio-details-title h2 {
+  font-size: 25px;
+}
+
+.our-portfolio-title p {
+  font-size: 13px;
+}
+
+.our-portfolio-title h2 {
+  font-size: 25px;
+}
+
+}
+
+/* small mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 599px) {
+  .sticky {
+    position: relative !important;
+}
+
+  nav.Design-Studio_menu {
+    display: none;
+}
+
+.slider-title h1 {
+  font-size: 25px;
+}
+
+/*--------------service-section-------------*/    
+.service-content h2 {
+  font-size: 18px;
+}
+
+.service-content p {
+  font-size: 15px;
+}
+
+.service-icon i {
+  font-size: 40px;
+}
+
+/*--------------about-section-------------*/    
+.about-content h5 {
+  font-size: 13px;
+}
+
+.about-content h2 {
+  font-size: 24px;
+}
+
+.about-content p {
+  font-size: 13px;
+}
+
+.about-two-content h2 {
+  font-size: 23px;
+}
+
+.about-sub-title h2 {
+  font-size: 20px;
+}
+
+/*--------------portfolio-section-------------*/    
+.portfolio-title h5 {
+  font-size: 13px;
+}
+
+.portfolio-title h2 {
+  font-size: 24px;
+}
+
+/*--------------team-section-------------*/    
+.team-title h5 {
+  font-size: 13px;
+}
+
+.team-title h2 {
+  font-size: 24px;
+}
+
+/*-------------testimonial-section-------------*/
+.testimonial-title h5 {
+  font-size: 13px;
+}
+
+.testimonial-title h2 {
+  font-size: 24px;
+}
+
+.testimonial-disc p {
+  font-size: 14px;
+}
+
+.testimonial-content h2 {
+  font-size: 18px;
+}
+
+.testimonial-thumb::after {
+  font-size: 40px;
+}
+
+/*--------------blog-section-------------*/    
+.blog-title h2 {
+  font-size: 24px;
+}
+
+.blog-content h5 {
+  font-size: 12px;
+}
+
+.blog-content h2 {
+  font-size: 18px;
+}
+
+/*--------------footer-section-------------*/
+.company-info-desc p {
+  font-size: 15px;
+}
+
+.widget-title {
+  font-size: 20px;
+}
+
+.menu-quick-link-content ul li a {
+  font-size: 15px;
+}
+
+.menu-quick-info-content ul li a {
+  font-size: 15px;
+}
+
+.breadcumb-title h1 {
+  font-size: 30px;
+}
+
+/*===========blog-details============*/
+.blog-description h3 a {
+  font-size: 23px;
+}
+
+.blog-leave-title h3 {
+  font-size: 23px;
+}
+
+.about-sub-title h3 {
+  font-size: 23px;
+}
+
+.about-text h4 {
+  font-size: 20px;
+}
+
+.single-widget-item h2 {
+  font-size: 23px;
+}
+
+.subscribe-title h5 {
+  font-size: 14px;
+}
+
+.subscribe-title h2 {
+  font-size: 22px;
+}
+
+/*---------portfolio-details-------------*/
+.portfolio-details-title h2 {
+  font-size: 22px;
+}
+
+.our-portfolio-title p {
+  font-size: 13px;
+}
+
+.our-portfolio-title h2 {
+  font-size: 22px;
+}
+
+}
+
+/* small mobile :320px. */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+
+  .sticky {
+    position: relative !important;
+}
+
+
+  nav.Design-Studio_menu {
+    display: none;
+}
+
+.slider-title h5 {
+  font-size: 12px;
+}
+
+.slider-title h1 {
+  font-size: 20px;
+}
+
+.slider-button a {
+  font-size: 14px;
+}
+
+/*==========service-section==========*/
+.service-icon i {
+  font-size: 35px;
+}
+
+.service-content h2 {
+  font-size: 18px;
+}
+
+.service-content p {
+  font-size: 14px;
+}
+
+/*===========about-section==========*/
+.about-content h5 {
+  font-size: 12px;
+}
+
+.about-content h2 {
+  font-size: 21px;
+}
+
+.about-content p {
+  font-size: 12px;
+}
+
+.about-two-content h5 {
+  font-size: 12px;
+}
+
+.about-two-content h2 {
+  font-size: 18px;
+}
+
+.about2-btn2 {
+  display: none;
+}
+
+.about-sub-title h2 {
+  font-size: 18px;
+}
+
+/*--------------portfolio-section-------------*/ 
+.portfolio-title h5 {
+  font-size: 12px;
+}
+
+.portfolio-title h2 {
+  font-size: 21px;
+}
+
+.case_study_menu ul li {
+  font-size: 12px;
+}
+
+.case-study-single-box:hover .case-study-content-inner {
+  bottom: -60px;
+}
+
+/*--------------team-section-------------*/    
+.team-title h5 {
+  font-size: 12px;
+}
+
+.team-title h2 {
+  font-size: 20px;
+}
+
+/*--------------testimonial-section-------------*/  
+.testimonial-title h5 {
+  font-size: 12px;
+}
+
+.testimonial-title h2 {
+  font-size: 20px;
+}
+
+.testimonial-disc p {
+  font-size: 12px;
+}
+
+.testimonial-content h2 {
+  font-size: 16px;
+}
+
+.testimonial-content span {
+  font-size: 14px;
+}
+
+.testimonial-thumb::after {
+  display: none;
+}
+
+/*---------------blog-section--------------*/
+.blog-title h5 {
+  font-size: 12px;
+}
+
+.blog-title h2 {
+  font-size: 20px;
+}
+
+.blog-content h5 {
+  font-size: 12px;
+}
+
+.blog-content h2 {
+  font-size: 16px;
+}
+
+/*---------------footer-section--------------*/
+.company-info-desc p {
+  font-size: 14px;
+}
+
+.widget-title {
+  font-size: 20px;
+}
+
+.menu-quick-link-content ul li a {
+  font-size: 14px;
+}
+
+.menu-quick-info-content ul li a {
+  font-size: 14px;
+}
+
+.breadcumb-title h1 {
+  font-size: 26px;
+}
+
+.breadcumb-content-menu ul li span {
+  font-size: 18px;
+}
+
+.breadcumb-content-menu ul li a {
+  font-size: 18px;
+}
+
+/*===========blog-details============*/
+.blog-description h3 a {
+  font-size: 21px;
+}
+
+.blog-details-meta span {
+  margin-right: 8px;
+}
+
+.blog-leave-title h3 {
+  font-size: 23px;
+}
+
+.blog-description p {
+  font-size: 14px;
+}
+
+.blog-details-social-icon ul li a {
+  margin-left: 5px;
+}
+
+.about-sub-title h3 {
+  font-size: 23px;
+}
+
+.about-text h4 {
+  font-size: 20px;
+}
+
+.single-widget-item h2 {
+  font-size: 23px;
+}
+
+.subscribe-title h5 {
+  font-size: 14px;
+}
+
+.subscribe-title h2 {
+  font-size: 22px;
+}
+
+/*---------portfolio-details-------------*/
+.portfolio-details-title h2 {
+  font-size: 16px;
+}
+
+.portfolio-details-content-text ul li span {
+  font-size: 12px;
+}
+
+.portfolio-details-content-text ul li {
+  font-size: 12px;
+}
+
+.our-portfolio-title p {
+  font-size: 12px;
+}
+
+.our-portfolio-title h2 {
+  font-size: 14px;
+}
+
+}
+
+@media (max-width: 767px) {
+  /* Remove the 50px padding from the outer Research section */
+  .portfolio-details.pt-90.pb-70 {
+    padding: 40px 0;
+  }
+
+  /* Keep a small amount of padding inside each research card */
+  .portfolio-details .portfolio-details {
+    padding: 16px;
+  }
+
+  .portfolio-details-content.pt-80.ml-3 {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  #carouselExampleAutoplay {
+    width: 100% !important;
+    height: 240px !important;
+  }
+
+  #carouselExampleAutoplay .carousel-inner,
+  #carouselExampleAutoplay .carousel-item {
+    height: 100% !important;
+  }
+
+  #carouselExampleAutoplay .carousel-item img {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100%;
+    margin: 0 auto !important;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 767px) {
+  p[align="justify"] {
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #sticky-header {
+    display: none;
+  }
+
+  .mobile-menu-area.sticky {
+    position: sticky !important;
+    top: 0;
+    z-index: 922;
+  }
+
+  .mobile-menu {
+    position: relative;
+  }
+
+  .mobile-menu .mean-bar {
+    min-height: 64px;
+    background: #fff;
+  }
+
+  .mobile-logo {
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    z-index: 10;
+  }
+
+  .mobile-logo img {
+    display: block;
+    width: 190px;
+    height: 44px;
+    object-fit: contain;
+  }
+
+  .mobile-menu .mean-bar a.meanmenu-reveal {
+    color: #13294b;
+  }
+
+  .mobile-menu .mean-bar a.meanmenu-reveal span {
+    background: #13294b;
+  }
+}
+
+@media (max-width: 991px) {
+  #carouselExampleAutoplay {
+    margin-top: 50px !important;
+  }
+}

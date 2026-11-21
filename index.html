@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zixin Wang | Resilient Infrastructure & Smart Systems</title>
+	<!-- Favicon -->
+
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" media="all">
+	<!-- carousel CSS -->
+	<link rel="stylesheet" href="static/css/owl.carousel.min.css" type="text/css" media="all">
+	<!-- animate CSS -->
+	<!-- <link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all"> -->
+	<!-- animated-text CSS -->
+	<!-- font-awesome CSS -->
+	<link rel="stylesheet" href="static/css/all.min.css" type="text/css" media="all">
+	<!-- font-flaticon CSS -->
+	<link rel="stylesheet" href="static/css/flaticon.css" type="text/css" media="all">
+	<!-- theme-default CSS -->
+	<link rel="stylesheet" href="static/css/theme-default.css" type="text/css" media="all">
+	<!-- meanmenu CSS -->
+	<link rel="stylesheet" href="static/css/meanmenu.min.css" type="text/css" media="all">
+	<!-- transitions CSS -->
+	<link rel="stylesheet" href="static/css/owl.transitions.css" type="text/css" media="all">
+	<!-- venobox CSS -->
+	<link rel="stylesheet" href="static/css/venobox.css" type="text/css" media="all">
+	<!-- bootstrap icons -->
+	<link rel="stylesheet" href="static/css/bootstrap-icons.css" type="text/css" media="all">
+	<!-- Main Style CSS -->
+	<link rel="stylesheet" href="static/css/style.css" type="text/css" media="all">
+	<!-- responsive CSS -->
+	<link rel="stylesheet" href="static/css/responsive.css" type="text/css" media="all">
+
+	<link rel="stylesheet" href="static/css/scrollCue.css">
+
+	<link rel="stylesheet" href="static/css/progresscircle.css">
+
+
+	<script src="static/js/modernizr-3.5.0.min.js"></script>
+	<link href="static/css/clash-display.css" rel="stylesheet">
+	
+	<style>
+		
+		/* 当页面宽度大于1900px*/
+		@media screen and (min-width:1900px) {
+			#carouselExampleAutoplay{
+				width: 50%;
+				height: 500px;
+				margin: 0 auto;
+			}
+			 
+		}
+		
+		/* 当页面宽度大于1200px小于1900px*/
+		@media screen and (min-width:1200px) and (max-width:1900px) {
+			#carouselExampleAutoplay{
+				width: 60%;
+				height: 500px;
+				margin: 0 auto;
+			}
+			 
+		}
+
+
+		/* 当页面宽度大于960px小于1200px */
+		@media screen and (min-width:960px) and (max-width:1200px) {
+
+			#carouselExampleAutoplay{
+				width: 50%;
+				height: 500px;
+				margin: 0 auto;
+			}
+		 
+		}
+
+		/* 当页面宽度大于600px小于960px */
+		@media screen and (min-width:600px) and (max-width:960px) {
+
+			#carouselExampleAutoplay{
+				width: 80%;
+				height: 500px;
+				margin: 0 auto;
+			}
+			 
+		}
+
+
+		/* 当页面宽度大于300px小于600px */
+		@media screen and (min-width:300px) and (max-width:600px) {
+
+			#carouselExampleAutoplay{
+				width: 100%;
+				height: 300px;
+				margin: 0 auto;
+			}
+			 
+		}
+
+
+		/* 当页面宽度小于300px*/
+		@media screen and (max-width:300px) {
+
+			#carouselExampleAutoplay{
+				width: 80%;
+				height: 200px;
+				margin: 0 auto;
+			}
+			 
+		}
+	</style>
+
+
+</head>
+
+<body>
+
+
+<!--
+	<div class="loader_bg">
+		<div class="main-page">
+			<div class="loader">
+				<div class="spin-blend"></div>
+				<div class="spin-blend"></div>
+				<div class="spin-blend"></div>
+				<div class="spin-blend"></div>
+				<div class="spin-blend"></div>
+			</div>
+			<div class="loading-text">
+				<div class="letter">L</div>
+				<div class="letter">o</div>
+				<div class="letter">a</div>
+				<div class="letter">d</div>
+				<div class="letter">i</div>
+				<div class="letter">n</div>
+				<div class="letter">g</div>
+				<div class="letter">.</div>
+				<div class="letter">.</div>
+				<div class="letter">.</div>
+			</div>
+		</div>
+	</div>
+-->
+
+
+
+	<!-- <div class="xs-sidebar-group info-group">
+		
+		<div class="xs-overlay xs-bg-black"></div>
+		<div class="xs-sidebar-widget">
+			<div class="sidebar-widget-container">
+				<div class="widget-heading">
+					<a href="#" class="close-side-widget">
+						<i class="far fa-times-circle"></i>
+					</a>
+				</div>
+				<div class="sidebar-textwidget">
+				 
+					<div class="sidebar-info-contents">
+						<div class="content-inner">
+							<div class="nav-logo">
+								<a href=""><img src="static/picture/Design-Studio.png" alt="logo"></a>
+							</div>
+							<div class="content-box">
+								<h2>About Us</h2>
+								<p class="text">The argument in favor of using filler text goes something like this: If
+									you use real content in the Consulting Process, anytime you reach a review point
+									you’ll end up reviewing and negotiating the content itself and not the design.</p>
+								<a href="index" class="theme-btn btn-style-two"><span>Consultation</span> <i
+										class="fas fa-heart"></i></a>
+							</div>
+							<div class="contact-info">
+								<h2>Contact Info</h2>
+								<ul class="list-style-one">
+									<li><span class="icon flaticon-email"></span>Chicago 12, Melborne City, USA</li>
+									<li><span> <i class="bi bi-telephone-inbound"></i> </span>(+001) 123-456-7890</li>
+									<li><span><i class="bi bi-geo-alt"></i></span>Example @gmail.com</li>
+									<li><span><i class="bi bi-clock"></i></span>Week Days: 09.00 to 18.00 Sunday: Closed
+									</li>
+								</ul>
+							</div>
+							 
+							<ul class="social-box">
+								<li class="facebook"><a href="#" class="fab fa-facebook-f"></a></li>
+								<li class="twitter"><a href="#" class="fab fa-instagram"></a></li>
+								<li class="linkedin"><a href="#" class="fab fa-twitter"></a></li>
+								<li class="instagram"><a href="#" class="fab fa-pinterest-p"></a></li>
+								<li class="youtube"><a href="#" class="fab fa-linkedin-in"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+
+	<div id="sticky-header" class="Design-Studio_nav_manu">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-2">
+					<div class="logo">
+						<a class="logo_img" href="https://illinois.edu/" title="Design-Studio">
+							<img src="static/image/Illinois_formal_wordmark_fullcolor_rgb.png" style="width: 100%;height: 60%; margin: 0 auto;" alt="logo">
+						</a>
+						<a class="main_sticky" href="https://illinois.edu/" title="Design-Studio">
+							<img src="static/image/Illinois_formal_wordmark_fullcolor_rgb.png" style="width: 100%;height: 60%; margin: 0 auto;" alt="logo">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-10">
+					<nav class="Design-Studio_menu">
+						<ul class="nav_scroll">
+							<li><a href="index.html"><font color="#13294b"><u>Home </u></font></a></li>
+							<li><a href="people.html">People </a></li>
+							<li><a href="research.html">Research </a></li>
+							<li><a href="publications.html">Publications </a></li>
+							<li><a href="teaching.html">Teaching </a></li>
+							<li><a href="news.html">News </a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="mobile-menu-area sticky d-sm-block d-md-block d-lg-none">
+        <div class="mobile-menu">
+            <a class="mobile-logo" href="https://illinois.edu/">
+                <img src="static/image/Illinois_formal_wordmark_fullcolor_rgb.png"
+                    alt="University of Illinois Urbana-Champaign">
+            </a>
+
+            <nav class="Design-Studio_menu">
+                <ul class="nav_scroll">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="people.html">People</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+	
+	<!-- 轮播图 -->
+	<div id="carouselExampleAutoplay" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+		<!-- 轮播图项目 -->
+		<div class="carousel-inner" style="width: 100%;height: 100%;">
+			<div class="carousel-item active" style="width: 100%;height: 100%;">
+				<img src="./static/image/physcis_informed_1.png" class="d-block w-100" alt="Slide 1" style="width: 100%;height: 100%;">
+			</div>
+			<div class="carousel-item" style="width: 100%;height: 100%;">
+				<img src="./static/image/TST_Framework_Overview_2.jpg" class="row" alt="Slide 2" style="width: 90%;height: 80%;margin: 0 auto; margin-top: 60px;">
+			</div>
+			<div class="carousel-item" style="width: 100%;height: 100%;">
+				<img src="./static/image/structural_anomaly.png" class="row" alt="Slide 3" style="width: 60%;height: 100%;margin: 0 auto;">
+			</div>
+			<div class="carousel-item" style="width: 100%;height: 100%;">
+				<img src="./static/image/sensor_anomaly.png" class="row" alt="Slide 4" style="width: 90%;height: 100%;margin: 0 auto;">
+			</div>
+		</div>
+
+		<!-- 轮播图控制按钮 -->
+		<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplay"
+			style="background: #ccc;" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplay"
+			data-bs-slide="next" style="background: #ccc;">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+<!--
+	<div class="hero-slide owl-carousel"  style="width: 100%; height:50%;" >
+		<div class="slider-area">
+			<div class="container">
+				<div class="row">
+					<img src="./static/image/physcis_informed_1.png" style="width: 60%;height: 60%; margin: 0 auto;" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="slider-area">
+			<div class="container">
+				<div class="row">
+					<img src="./static/image/structural_anomaly.png" style="width: 40%;height: 40%; margin: 0 auto;" alt="">
+				</div>
+			</div>
+		</div>
+		<div class="slider-area">
+			<div class="container">
+				<div class="row">
+					<img src="./static/image/sensor_anomaly.png" style="width: 55%;height: 55%; margin: 0 auto;" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+-->
+
+	<div class="service-section">
+		<div class="container">
+			<div class="row">
+				<!--<div class="col-lg-24 col-md-24" data-cue="slideInUp">-->
+				<div class="col-lg-24 col-md-24">
+					<div class="service-single-box">
+						<!-- <div class="service-icon">
+							<i class="far fa-clone"></i>
+						</div> -->
+						<div class="service-content">
+							<h2> <big><u>R</u></big>esilient <big><u>I</u></big>nfrastructure & <big><u>S</u></big>mart <big><u>S</u></big>ystems </h2>
+							<p align="justify"> Welcome to my website! My name is Zixin Wang, and I am a postdoctoral research associate in Civil and Environmental Engineering at the University of Illinois Urbana-Champaign, working with Professor Mohamad Alipour <a href="https://sites.google.com/illinois.edu/alipour"style="text-decoration: none; color: inherit;"> (IDEA Lab)</a>. My postdoctoral research focuses on developing sim-to-real AI technologies for GPR-based nondestructive evaluation. Prior to joining UIUC, I completed my Ph.D. under the supervision of Professor Mohammad R. Jahanshahi at Purdue University <a href="https://web.ics.purdue.edu/~jahansha/index.html"style="text-decoration: none; color: inherit;"> (Smart Informatix Laboratory)</a>. My doctoral research centers on developing AI-driven structural health monitoring technologies for complex structural and sensing systems, with a particular focus on fostering resilient extraterrestrial habitats using physics-informed machine learning. Prior to joining Purdue, I completed my master’s degree at Tongji University under the supervision of Professor Zheng Lu. My master’s research focused on advancing structural vibration control techniques to enhance the resilience of civil infrastructure against earthquakes and strong winds.</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="col-lg-4 col-md-6" data-cue="slideInUp">
+					<div class="service-single-box">
+						<div class="service-icon">
+							<i class="fab fa-dribbble"></i>
+						</div>
+						<div class="service-content">
+							<h2>Marketing</h2>
+							<p>Local design techniques require a lot of
+								attention to detail and persona lization
+								this article, we want </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6" data-cue="slideInUp">
+					<div class="service-single-box">
+						<div class="service-icon">
+							<i class="far fa-building"></i>
+						</div>
+						<div class="service-content">
+							<h2>Web Design</h2>
+							<p>Local design techniques require a lot of
+								attention to detail and persona lization
+								this article, we want </p>
+						</div>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+ 
+
+	<div class="copyright-section" style="background: #000;">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="footer-bottom-content">
+						<p>Copyright @ 2026 Resilient Infrastructure & Smart Systems, University of Illinois Urbana-Champaign, All Rights Reserved</p>
+					</div>
+					<!-- <div class="footer-social-icon">
+						<ul>
+							<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="#"><i class="fab fa-skype"></i></a></li>
+							<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+							<li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+						</ul>
+					</div> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="static/js/jquery-3.6.2.min.js"></script>
+
+	<script src="static/js/popper.min.js"></script>
+
+	<script src="static/js/bootstrap.min.js"></script>
+
+	<script src="static/js/owl.carousel.min.js"></script>
+
+	<script src="static/js/jquery.counterup.min.js"></script>
+
+	<script src="static/js/waypoints.min.js"></script>
+
+
+	<script src="static/js/imagesloaded.pkgd.min.js"></script>
+
+	<script src="static/js/venobox.js"></script>
+
+
+	<script src="static/js/jquery.celendar.js"></script>
+
+	<script src="static/js/venobox.min.js"></script>
+
+	<script src="static/js/isotope.pkgd.min.js"></script>
+
+	<script src="static/js/jquery.meanmenu.js"></script>
+
+	<script src="static/js/jquery.scrollUp.js"></script>
+
+	<script src="static/js/jquery.barfiller.js"></script>
+
+	<script src="static/js/theme.js"></script>
+
+	<script src="static/js/scrollCue.min.js"></script>
+
+	<script src="static/js/progresscircle.js"></script>
+	<script>
+		$('.circlechart').circlechart();
+	</script>
+
+</body>
+
+</html>
